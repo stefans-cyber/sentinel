@@ -37,7 +37,10 @@
                                             "type": "string"
                                         },
                                         "FromIP": {
-                                            "type": "string"
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
                                         },
                                         "Index": {
                                             "type": "integer"
